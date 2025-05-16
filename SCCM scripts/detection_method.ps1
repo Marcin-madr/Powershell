@@ -3,6 +3,7 @@ $AppName = "MyApplication"
 $ExpectedVersion = "1.2.3"
 
 function Get-ApplicationVersion {
+    
     # for specific file:
     # $FileVersion = (Get-Item "C:\Program Files\MyApplication\MyApplication.exe").VersionInfo.FileVersion
     # for registry key:
